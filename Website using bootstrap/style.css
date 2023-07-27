@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: whitesmoke;
+}
+/* .hero1{
+    border: 2px solid red;
+}
+.hero2{
+    border: 3px solid palevioletred;
+
+} */
+#main::before{
+    content: '';
+    position: absolute;
+    background: url(img/blueorange.jpeg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    offset: 0px;
+   padding: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+   background-position: 100%;
+}
+
+.hero1 h1 {
+font-size: 3.5rem;
+font-weight: 700;
+}
+.hero2 h1{
+    font-size: 3.5rem;
+    font-weight: 400; 
+}
+ nav .nav-item{
+    font-size: 1rem;
+    font-weight: bold;
+    color: skyblue;
+   
+}
